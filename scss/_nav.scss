@@ -1,0 +1,58 @@
+// ナビゲーションバー
+
+.side_bar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  width: 20%;
+  height: 100vh;
+  padding-top: 30px;
+  background-color: #fff;
+  text-align: center;
+
+  .logo{
+    a{   
+      color: $mainColor;
+      font-size: 46px;
+      font-family: $nomalFont; 
+    }
+    img{
+      width: 40px;
+      margin: auto;
+    }
+  }
+
+  .gnav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 200;
+    transform: translate(-50%,-50%);
+
+    &__item{
+      display: inline-block;
+      width: 100%;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  .sns_wrap{
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    a{
+      width: 25px;
+      margin: 5px;
+      img{
+        width: 100%;
+      }
+    }
+  }
+
+}

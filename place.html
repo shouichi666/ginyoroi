@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Travelin</title>
+	<meta name="viewport" content="width=device-width">
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond|Gentium+Basic&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body id="page-place">
+	<div class="container">
+			<div calss="wappper">
+					<header class="side_bar">
+						<div class="logo">
+							<h1 class="title"><a href="/">Travelin</a></h1>
+							<img src="./img/logo.png" alt="">
+						</div>
+						<nav class="gnav">
+							<a class="gnav__item" href="./place.html?id=1">Switzerland</a>
+							<a class="gnav__item" href="./place.html?id=2">Malaysia</a>
+							<a class="gnav__item" href="./place.html?id=3">USA</a>
+							<a class="gnav__item" href="./place.html?id=4">Iceland</a>
+							<a class="gnav__item" href="./place.html?id=5">indonesia</a>
+							<a class="gnav__item" href="./place.html?id=6">Japan</a>
+							<a class="gnav__item" href="./place.html?id=7">United Kingdom</a>
+							<a class="gnav__item" href="./place.html?id=8">Italia</a>
+						</nav>
+						<div class="sns_wrap">
+							<a href="#"><img src="./img/icon/twitter.png" alt=""></a>
+							<a href="#"><img src="./img/icon/instagram.png" alt=""></a>
+							<a href="#"><img src="./img/icon/facebook.png" alt=""></a>
+						</div>
+					</header>
+					<main class="main">
+						<section class="place">
+							<div class="place__img">
+								<img src="" alt="place-img">
+							</div>
+							<div class="place__info">
+								<h1 class="place__info__title"><span data-place="name"></span></h1>
+								<dl class="place__info__item-wrapper">
+									<dt class="place__info__item-wrapper_heading">Etymology</dt>
+									<dd class="place__info__item-wrapper_text" data-place="Etymology"></dd>
+									<dt class="place__info__item-wrapper_heading">History</dt>
+									<dd class="place__info__item-wrapper_text" data-place="History"></dd>
+									<dt class="place__info__item-wrapper_heading">Geography</dt>
+									<dd class="place__info__item-wrapper_text" data-place="Geography"></dd>
+								</dl>
+								<div class="place__info_btn-wrap">
+									<a href="" target="blank" class="btn" data-place="Wikipedia">Wikipedia</a>
+								</div>
+								<div class="place__info_btn-wrap">
+									<a href="" target="blank" class="btn" data-place="travelsite">travel site</a>
+								</div>
+							</div>
+						</section>
+					</main>
+				
+			</div>
+
+	</div>
+	<div class="loader-wrap">
+		<div class="loader">
+			<div class="circle circle-1">
+				<div class="circle circle-2">
+					<div class="circle circle-3"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="./js/master.js"></script>
+	<script src="./js/main.js"></script>
+
+</body>
+</html>

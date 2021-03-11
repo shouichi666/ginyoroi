@@ -1,0 +1,32 @@
+@charset 'UTF-8';
+@import '_font';
+@import '_animate';
+
+html {
+  visibility: hidden;
+}
+
+html.wf-active {
+  visibility: visible;
+}
+
+*{
+  font-family: $nomalFont;
+}
+a{
+  font-family: $nomalFont;
+  text-decoration: none;
+  color: #363636;
+}
+.sp-on{
+  display: none;
+}
+
+/* nav */
+@import '_nav';
+
+/* main */
+@import '_main';
+
+// sp表示
+@import '_sp';
