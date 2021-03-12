@@ -1,6 +1,6 @@
 @charset 'UTF-8';
-@import '_font';
-@import '_animate';
+@import "_font";
+@import "_animate";
 
 html {
   visibility: hidden;
@@ -10,23 +10,24 @@ html.wf-active {
   visibility: visible;
 }
 
-*{
+* {
   font-family: $nomalFont;
 }
-a{
+a {
   font-family: $nomalFont;
   text-decoration: none;
   color: #363636;
 }
-.sp-on{
+.sp-on {
   display: none;
+  z-index: 100;
 }
 
 /* nav */
-@import '_nav';
+@import "_nav";
 
 /* main */
-@import '_main';
+@import "_main";
 
 // sp表示
-@import '_sp';
+@import "_sp";

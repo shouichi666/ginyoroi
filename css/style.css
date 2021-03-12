@@ -80,6 +80,7 @@ a {
 
 .sp-on {
   display: none;
+  z-index: 100;
 }
 
 /* nav */
